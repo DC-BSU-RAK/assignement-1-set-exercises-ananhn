@@ -1,0 +1,120 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content layout */
+  main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Welcome Section */
+  .welcome {
+    width: 60%;
+  }
+  
+  .welcome h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+  }
+  
+  .welcome p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  .welcome img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Line Up Section */
+  .line-up {
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 35%;
+  }
+  
+  .line-up h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+  }
+  
+  .line-up ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .line-up ul li {
+    margin-bottom: 10px;
+  }
+  
+  .line-up-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .line-up-images img {
+    width: 48%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+  }
+
+
+
