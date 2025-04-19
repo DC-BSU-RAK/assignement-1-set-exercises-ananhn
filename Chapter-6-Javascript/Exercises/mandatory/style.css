@@ -1,0 +1,59 @@
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body setup */
+body {
+  background-color: #817474;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+/* Container for the calculator */
+.container {
+  background: rgb(253, 187, 187);
+  padding: 20px;
+  width: 250px; /* More compact width */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+  text-align: center;
+}
+
+/* Input field styling */
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #bda2a2;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ae363e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #af3c3c;
+}
+
+/* Total cost display */
+#total {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+
+  
