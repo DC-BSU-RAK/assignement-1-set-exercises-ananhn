@@ -1,11 +1,11 @@
-/* Reset default styles */
+/*  default setting */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* Body setup */
+/* Body  */
 body {
   background-color: #817474;
   display: flex;

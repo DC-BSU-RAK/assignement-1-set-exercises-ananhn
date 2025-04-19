@@ -1,4 +1,4 @@
-// Function to calculate
+// Function for calculate
 function calculate() {
     const cost = parseFloat(document.getElementById("cost").value);
     const litresPurchased = parseFloat(document.getElementById("litrespurchased").value);
