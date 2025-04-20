@@ -1,4 +1,4 @@
-/* Reset default browser styling */
+/*  default  */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@
     text-decoration: underline;
   }
   
-  /* Main content layout */
+  /* Main content  */
   main {
     display: flex;
     justify-content: space-between;
@@ -107,7 +107,7 @@
     border-radius: 5px;
   }
   
-  /* Footer styling */
+  /* Footer  */
   footer {
     background-color: #8c15e9;
     color: white;
