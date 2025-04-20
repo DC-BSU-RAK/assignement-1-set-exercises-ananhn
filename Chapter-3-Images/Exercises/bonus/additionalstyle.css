@@ -1,0 +1,33 @@
+
+
+/* Styling for boxA*/
+.boxA{
+    border: 4px solid purple;
+    box-shadow: 10px 10px 20px red;
+  }
+  
+  /* Styling for boxB */
+    .boxB {
+        border-color:  lime; /* bright green border */
+        box-shadow: inset 20px 20px 30px black;
+      }
+  
+  
+  
+  
+  /* Styling for boxC */
+  .boxC {
+    border: 6px solid orange;
+    border-radius: 20px;
+    box-shadow: 
+      0 0 0 10px blue,
+      0 0 0 20px red,
+      0 0 0 30px green;
+  }
+  
+  /* Styling for boxD*/
+  .boxD {
+    border-color:  brown;
+    text-shadow: 5px 5px 1px black;
+  }
+  
